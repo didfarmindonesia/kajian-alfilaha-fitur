@@ -9,7 +9,7 @@ function ClassDetails() {
   ]
 
   return (
-    <section className="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-stack-lg">
+    <section id="kelas" className="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-stack-lg">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         <div className="md:col-span-8 bg-surface-container-lowest rounded-xl p-8 border border-primary/20 shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
           <div className="absolute top-0 right-0 w-32 h-32 bg-primary-fixed/20 rounded-bl-full -z-0"></div>
@@ -34,7 +34,7 @@ function ClassDetails() {
           </div>
         </div>
 
-        <div className="md:col-span-4 bg-surface-container-lowest rounded-xl p-8 border border-surface-variant shadow-sm flex flex-col items-center text-center">
+        <div id="jadwal" className="md:col-span-4 bg-surface-container-lowest rounded-xl p-8 border border-surface-variant shadow-sm flex flex-col items-center text-center">
           <span className="bg-primary/10 text-primary px-3 py-1 rounded-full font-label-sm text-label-sm mb-6 inline-flex items-center">
             <span className="material-symbols-outlined text-[16px] mr-1">qr_code_scanner</span>
             QRIS STATIS INFAQ
@@ -42,7 +42,7 @@ function ClassDetails() {
           <div
             className="w-48 h-48 bg-white border-2 border-outline-variant rounded-xl shadow-sm mb-6 flex items-center justify-center p-2 relative overflow-hidden"
             style={{
-              backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8chI7SDiEvGcUuuLb5XQE9HS59WPbf5d7KqV9RnxJWQ3YpHdfmmmmqovnZqcIdnMhk-Ezr_k7VqCIutPen3hGN9LIwXgW8m8a3GxCyI-YFC8oS0TOCSknljxnPU5v4CQ1MzQ1iScMh4RGsV0AwmCc6gp7aQ9fun06qdu2WrkSJW0SHMVVtaEHApLUNMFJOjVQK3DKhH6rA4x2LLgjwKOfNlrfwaguElg9HBdocbzpyYgqhOGq4Q4x")',
+              backgroundImage: 'url("/qris-alfilaha.jpeg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',

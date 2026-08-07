@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -31,16 +31,7 @@ function Hero() {
           </p>
         </div>
         <div className="md:col-span-5 flex justify-center md:justify-end">
-          <div className="relative group">
-            <div className="absolute -inset-2 bg-primary-fixed/20 rounded-xl blur-sm group-hover:blur-md transition-all"></div>
-            <div className="relative bg-white p-2 rounded-xl shadow-md border border-outline-variant/30">
-              <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzndjfWrQBfkZcdPnx_JAXfub2WkJM7_gj4TvbvxE4hdmlnnwHcxxdAVjzVam2J9C6m77bqhCbUYUqw7hLRbiadfzjQcxnZZ7AjAlMSmp681BDhajqK6suX2b_oN8p_V46nNItMD4lW9DVwXfKaN_uJARnLXnPp1KZP9gnGD2rahNQIs9hjJDqEoSTPt0ROysmVy3iGsXaLZLzcdBTEDEz-VQAcoepdQLYy0CEt9TTf61kYFlocL0vM0dRagMgUu15aw"
-                alt="Kitab Al-Filaha Book Cover"
-                className="w-64 md:w-80 h-auto rounded-lg shadow-sm"
-              />
-            </div>
-          </div>
+          <a href="/daftar" className="bg-primary text-on-primary px-4 py-2 rounded-lg font-label-sm text-label-sm hover:opacity-90 transition-opacity no-underline">Daftar Sekarang</a>
         </div>
       </div>
     </section>
